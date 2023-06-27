@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOP WATCH</title>
+    <link rel="stylesheet" href="../css/index.css"
+</head>
+<body>
+    <div class="container">
+        <!-- heading of stop watch -->
+        <h1>Stop Watch</h1>
+
+        <div id="Time">
+            <!-- create hours digit -->
+            <span class="Number" id="Hr">00</span>
+
+            <!-- create hour text -->
+            <span class="txt">Hr</span>
+
+            <!-- create minutes digit -->
+            <span class="Number" id="Min">00</span>
+
+            <!-- create minutes text -->
+            <span class="txt">Min</span>
+
+            <!-- create seconds digits -->
+            <span class="Number" id="Sec">00</span>
+
+            <!-- create seconds text -->
+            <span class="txt">Sec</span>
+
+            <!-- create nanosecond digit -->
+            <span class="Number" id="NanoSec">00</span>
+        </div>
+
+        <!-- we create another div for buttons -->
+        <div id="buttons">
+            <!-- create start buttons to start the stop watch -->
+            <button class="btn" id="start">START</button>
+
+            <!-- stop button -->
+            <button class="btn" id="stop">STOP</button>
+
+            <!-- reset button -->
+            <button class="btn" id="reset">RESET</button>
+        </div>
+    </div>
+    <script src="../javascript/index.js"></script>
+</body>
+</html>
